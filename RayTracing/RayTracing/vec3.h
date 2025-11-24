@@ -6,7 +6,7 @@
 class vec3
 {
 public:
-	vec3() {}
+	vec3() = default;
 	vec3(double e0, double e1, double e2)
 		: element{ e0, e1, e2 }
 	{
