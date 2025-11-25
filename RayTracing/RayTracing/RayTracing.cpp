@@ -1,4 +1,11 @@
-﻿#include <iostream>
+﻿#include "color.h"
+#include "ray.h"
+#include "vec3.h"
+
+color rayColor(const ray& r)
+{
+    return color(0, 0, 0);
+}
 
 int main()
 {

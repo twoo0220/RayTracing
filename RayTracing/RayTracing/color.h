@@ -2,6 +2,8 @@
 
 #include "vec3.h"
 
+using color = vec3;
+
 void writeColor(std::ostream& out, const vec3& pixelColor)
 {
 	double red = pixelColor.x();
